@@ -12,3 +12,4 @@ if(!defined('ABSPATH')){
 define('PLUGIN_INSPECTOR', plugin_dir_path(__FILE__));
 
 require PLUGIN_INSPECTOR . "includes/cli.php";
+require PLUGIN_INSPECTOR . "includes/vuln.php";
